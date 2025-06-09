@@ -17,5 +17,3 @@ public class max_min_element_without_array {
         System.out.println(min);
     }
 }
-
-//using ternary operator.
