@@ -8,7 +8,7 @@ public class particular_index_element {
         int n = sc.nextInt();
         sc.nextLine();
 
-        System.out.println("ente the array elements(space separated): ");
+        System.out.println("enter the array elements(space separated): ");
         String inputLine = sc.nextLine();
         String[] StringArray = inputLine.split(" ");
 
