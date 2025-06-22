@@ -1,5 +1,18 @@
 import java.util.Scanner;
 public class reverse_array {
+    public static void reverse(int [] arr){
+        int start = 0;
+        int end = arr.length -1;
+        while(start < end){
+            int temp = arr[start];
+            arr[start++] = arr[end];                             //by useing index
+            arr[end--] = temp;
+        }
+        System.out.println("Reversed array is: ");
+        for(int a:arr){
+            System.out.print(a + " ");
+        }
+    }
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
 
@@ -13,9 +26,11 @@ public class reverse_array {
         for(int i = 0; i < n; i++){
             arr[i] = Integer.parseInt(stringArray[i]);
         }
+        reverse(arr);
+        /*
         System.out.println("Reversed array is: ");
-        for(int i = n-1; i >=0; i--){
+        for(int i = n-1; i >=0; i--){                           //by conventional methode
             System.out.print(arr[i] + " ");
-        }
+        }*/
     }
 }
