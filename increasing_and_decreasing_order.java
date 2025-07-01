@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class increment_and_decrement_order {
+public class increasing_and_decreasing_order {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -15,12 +15,12 @@ public class increment_and_decrement_order {
         }
 
         Arrays.sort(intArray);
-        System.out.println("incremented array: ");
+        System.out.println("increasing array: ");
         for(int i = 0; i < n; i++){
             System.out.print(intArray[i] + " ");
         }
         System.out.println();
-        System.out.println("decremented array: ");
+        System.out.println("decreasing array: ");
         for(int i = n-1; i > 0; i--){
             System.out.print(intArray[i] + " ");
         }
