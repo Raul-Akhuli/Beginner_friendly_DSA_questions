@@ -13,7 +13,7 @@ public class median_of_array_elements {
             intArray[i] = Integer.parseInt(stringArray[i]);
         }
         Arrays.sort(intArray);
-        double median = 0.0;
+        double median = 0;
         if(n %2 == 0){
             median = (double) (intArray[(n/2) -1] + intArray[n/2]) / 2;
         }
