@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class rotate_array_using_space_separated_array_input {
+public class rotate_array_using_space_separated_array_input_form_a_particular_position {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
 

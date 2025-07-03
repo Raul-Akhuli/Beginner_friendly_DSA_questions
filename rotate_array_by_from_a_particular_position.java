@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class rotate_array {
+public class rotate_array_by_from_a_particular_position {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
 
