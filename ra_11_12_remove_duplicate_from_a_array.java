@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class remove_duplicate_from_a_array {
+public class ra_11_12_remove_duplicate_from_a_array {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the aray elements space separated: ");

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class second_smallest_element_within_an_array {
+public class ra_3_second_smallest_element_within_an_array {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
 

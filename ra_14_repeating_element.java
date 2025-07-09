@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.HashSet;
-public class repeating_element {
+public class ra_14_repeating_element {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the array space separated: ");

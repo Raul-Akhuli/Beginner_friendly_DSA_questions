@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.HashSet;
-public class non_repeating_element {
+public class ra_15_non_repeating_element {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the array value space separated: ");

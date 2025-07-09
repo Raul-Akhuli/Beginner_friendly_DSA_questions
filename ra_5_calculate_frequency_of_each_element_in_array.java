@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Scanner;
-public class calculate_frequency_of_each_element_in_array {
+public class ra_5_calculate_frequency_of_each_element_in_array {
     public static void frequency_count(int [] arr){
         HashMap<Integer, Integer> freq = new HashMap<>();                       //using HashMap
         for(int num:arr){

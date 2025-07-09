@@ -1,25 +1,23 @@
 import java.util.Scanner;
-import java.util.Arrays;
-public class median_of_array_elements {
+public class ra_8_rotate_array_using_space_separated_array_input_form_a_particular_position {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("enter space separated array: ");
         String inputLine = sc.nextLine();
         String[] stringArray = inputLine.split(" ");
         int n = stringArray.length;
-
         int[] intArray = new int[n];
         for(int i = 0; i < n; i++){
             intArray[i] = Integer.parseInt(stringArray[i]);
         }
-        Arrays.sort(intArray);
-        double median = 0.0;
-        if(n %2 == 0){
-            median = (double) (intArray[(n/2) -1] + intArray[n/2]) / 2;
+        System.out.println("enter the position: ");
+        int m = sc.nextInt();
+        for(int i = m; i < n; i++){
+            System.out.print(intArray[i] + " ");
         }
-        else{
-            median = intArray[(n/2)];
+        for(int i = 0; i < m; i++){
+            System.out.print(intArray[i] + " ");
         }
-        System.out.println("median is: " + median);
     }
 }

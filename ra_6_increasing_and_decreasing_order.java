@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class increasing_and_decreasing_order {
+public class ra_6_increasing_and_decreasing_order {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 

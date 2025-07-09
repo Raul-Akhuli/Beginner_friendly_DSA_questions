@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class average_of_all_element_in_array {
+public class ra_9_average_of_all_element_in_array {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter array element in space separated: ");
