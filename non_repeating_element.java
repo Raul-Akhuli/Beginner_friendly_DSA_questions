@@ -16,10 +16,10 @@ public class non_repeating_element {
                 intArray[i] = Integer.parseInt(stringArray[i]);
             }
             HashSet<Integer> seen = new HashSet<>();
-            for(int ch:intArray){
-                if(!seen.contains(ch)){
-                    System.out.println(ch + " ");
-                    seen.add(ch);
+            for(int num:intArray){
+                if(!seen.contains(num)){
+                    System.out.println(num + " ");
+                    seen.add(num);
                 }
             }
         }
