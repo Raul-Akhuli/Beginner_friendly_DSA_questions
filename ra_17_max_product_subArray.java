@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ra_16_max_product_subArray {
+public class ra_17_max_product_subArray {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the elements space separated: ");
