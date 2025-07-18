@@ -9,7 +9,7 @@ public class reverse_number {
             if(res > Integer.MAX_VALUE /10 || (res == Integer.MAX_VALUE /10 && n > 7)){
                 return 0;                                                                      // this two condition for the big integer
             }                                                                                  // greater than 32-bit
-            if(res < Integer.MIN_VALUE /10 || (res == Integer.MIN_VALUE /10 && n < -8)){
+            if(res < Integer.MIN_VALUE /10){
                 return 0;
             }
             num = num/10;
