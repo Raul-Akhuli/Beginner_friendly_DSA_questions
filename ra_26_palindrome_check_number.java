@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class palindrome_check_number {
+public class ra_26_palindrome_check_number {
     public static boolean isPalindrome(int num){
         int number = num;
         int reverse = 0;
