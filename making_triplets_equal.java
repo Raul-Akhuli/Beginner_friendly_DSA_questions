@@ -7,7 +7,7 @@ public class making_triplets_equal {
                 return 0;
             }
             else if(a == b){
-                while(a <= c){
+                while(a != c){
                     a++;
                     c--;
                     count++;
@@ -17,7 +17,7 @@ public class making_triplets_equal {
         }
         else return -1;
         if(count > 1){
-            return count - 1;
+            return count;
         }
         else return -1;
     }
